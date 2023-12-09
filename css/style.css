@@ -119,6 +119,29 @@ h6,
 
 }
 
+
+#whatsapp-chat a, #whatsapp-chat p {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    z-index: 2; /* Adjust the margin as needed */
+}
+
+/* Style the image within the link */
+#whatsapp-chat img {
+    width: 50px; /* Set the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 100%; /* Optional: add border-radius for a circular image */
+}
+
+
+#whatsapp-chat p {
+    position: fixed;
+    bottom: 0;
+    margin: 20px; /* Adjust the margin as needed */
+}
+
 /* .hero-header {
     background: url(../img/hero.jpg) top right no-repeat;
     background-size: cover;
