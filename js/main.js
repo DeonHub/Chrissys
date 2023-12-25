@@ -122,7 +122,7 @@ function sendEmail(event) {
         redirect: 'follow'
     };
 
-    fetch("http://bloody002.pythonanywhere.com/send-email/", requestOptions)
+    fetch("https://bloody002.pythonanywhere.com/send-email/", requestOptions)
         .then(response => response.text())
         .then(result => {
             console.log(result);
